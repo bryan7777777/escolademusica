@@ -1,0 +1,70 @@
+:root {
+    --marromClaro: rgb(182, 138, 102);
+    --marromEscuro: rgb(59, 29, 3);
+    --blocos: rgb(185, 94, 9);
+    --liks: rgb(250, 163, 63);
+    --liksHover: rgb(255, 152, 34);
+}
+
+body {
+    background-color: rgb(182, 138, 102);
+    color: rgb(59, 29, 3);
+}
+
+header {
+    background-color: rgb(136, 87, 47, 0.6);
+    color: ;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+a {
+    display: auto;
+    background-color: var(--liks);
+    border-radius: 50px;
+    padding: 6px;
+    margin: 5px;
+    text-align: center;
+    border: solid 2px;
+    border-radius: auto;
+    border-color: blanchedalmond;
+}
+
+a:hover {
+    background-color: var(--liksHover);
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: solid 2px;
+    border-color: blanchedalmond;
+}
+
+section, article {
+    padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    grid-template-columns: repeat(3);
+    gap: 10px;
+    padding: 10px;
+}
+
+.colunas {
+    background-color: var(--blocos);
+    padding: auto;
+    border-radius: 40px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
