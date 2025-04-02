@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 :root {
-    --marromClaro: rgb(182, 138, 102);
+    --background: rgb(252, 252, 252);
     --marromEscuro: rgb(59, 29, 3);
-    --blocos: rgb(185, 94, 9);
-    --liks: rgb(250, 163, 63);
-    --liksHover: rgb(255, 152, 34);
+    --blocos: rgb(145, 220, 219);
+    --liks: rgb(145, 219, 178);
+    --liksHover: rgb(145, 187, 219);
+    --corDaBorda: rgb(145, 167, 219);
+    --letras: rgb(0, 0, 0);
+    --header:  rgb(118, 207, 219, 0.6);
+    --p: rgb(109, 215, 247, 0.4);
+    --h: rgb(159, 160, 220, 0.4);
 }
 
 body {
-    background-color: rgb(182, 138, 102);
-    color: rgb(59, 29, 3);
+    background-color: var(--background);
+    color: var(--letras);
 }
 
 header {
-    background-color: rgb(136, 87, 47, 0.6);
+    background-color: var(--header);
     color: ;
     padding: 10px;
     border-radius: 50px;
@@ -28,7 +35,9 @@ a {
     text-align: center;
     border: solid 2px;
     border-radius: auto;
-    border-color: blanchedalmond;
+    border-color: var(--corDaBorda);
+    text-decoration: none;
+    font-size: 165%;
 }
 
 a:hover {
@@ -42,7 +51,7 @@ img {
     display: block;
     margin: auto;
     border: solid 2px;
-    border-color: blanchedalmond;
+    border-color: var(--corDaBorda);
 }
 
 section, article {
@@ -51,6 +60,9 @@ section, article {
 
 h1, h2 {
     text-align: center;
+    background-color: var(--h);
+    padding: 3%;
+    border-radius: 35px;
 }
 
 .infos {
@@ -75,7 +87,26 @@ h1, h2 {
     width: 20%;
 }
 
-.paginas img {
+.paginas1 img {
     border-radius: 1%;
     border: none;
+    height: 30%;
+    width: 30%;
+}
+
+p {
+    background-color: var(--p);
+    padding: 3%;
+    border-radius: 35px;
+    font-size: 125%;
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 180%;
 }
