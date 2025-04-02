@@ -20,7 +20,6 @@ body {
 
 header {
     background-color: var(--header);
-    color: ;
     padding: 10px;
     border-radius: 50px;
     text-align: center;
@@ -97,6 +96,13 @@ h1, h2 {
     margin-bottom: 5%;
 }
 
+.paginas img {
+    height: 35%;
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 p {
     background-color: var(--p);
     padding: 3%;
@@ -112,4 +118,31 @@ h1 {
 
 h2 {
     font-size: 180%;
+}
+
+#footer p, a, a:hover {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border: none;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
 }
